@@ -96,4 +96,4 @@ Before compiling, ensure you have the necessary dependencies installed.  Instruc
 Once you have installed the necessary libraries, you can compile the miner using the following command:
 
 ```bash
-g++ -o miner sha256miner.cpp -lssl -lcrypto -ljsoncpp -lboost_system && clear
+g++ -o miner sha256miner.cpp -lssl -lcrypto -ljsoncpp -lboost_system
